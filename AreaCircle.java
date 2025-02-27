@@ -14,6 +14,9 @@ class AreaCircle{
 		
 		//Print area
 		System.out.print("Area of circle is " + area + " units");
+		
+		//Close Scanner
+		scan.close();
 
 	}
 }
