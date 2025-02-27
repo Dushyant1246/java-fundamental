@@ -13,10 +13,10 @@ class VolumeCylinder{
 		float height = scan.nextFloat();
 
 		
-		//Calculate Area
+		//Calculate Volume
 		float volume = (float) (Math.PI * radius * radius * height);
 		
-		//Print area
+		//Print Volume
 		System.out.print("Volume of Cylinder is " + volume + " units");
 		
 		//Close scanner
